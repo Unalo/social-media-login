@@ -29,3 +29,99 @@
   border-radius: 50%;
   object-fit: cover;
 }
+.home{
+  display: flex;
+  padding: 50px 100px;
+  justify-content : space-between;
+  font-weight: wrap;
+}
+.card {
+  width: 30%;
+  padding: 10px;
+  -webkit-box-shadow: 2px 5px 13px 2px rgba(0,0,0,0.8); 
+  box-shadow: 2px 5px 13px 2px rgba(0,0,0,0.8);
+  border-radius: 7px;
+}
+
+.img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin: 20px 0px;
+}
+
+.desc {
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+.cardButton {
+  border: none;
+  border-radius: 10px;
+  background-color: slateblue;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postImg {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.postDesc {
+  padding: 0 100px;
+  font-size: 24px;
+  font-weight: 300;
+  color: gray;
+  margin-top: 50px;
+}
+
+.postLongDesc {
+  padding: 100px;
+  padding-top: 50px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.login {
+  height: calc(100vh -  50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wapper {
+  width: 60%;
+  height: 75%;
+  -webkit-box-shadow: 2px 5px 13px 2px rgba(0,0,0,0.8); 
+  box-shadow: 2px 5px 13px 2px rgba(0,0,0,0.8);
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  border-radius:20px ;
+}
+
+.left,.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center {
+  height: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
