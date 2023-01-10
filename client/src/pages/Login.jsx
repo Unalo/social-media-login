@@ -5,7 +5,7 @@ import Github from '../img/github.png';
 const Login = () => {
     return (
         <div className="login">
-            {/* <h1 className="loginTittle"> choose a Login method </h1> */}
+            <h1 className="loginTittle"> Choose a Login Method </h1>
             <div className="wapper">
                 <div className="left">
                     <div className="loginButton google">
@@ -28,7 +28,7 @@ const Login = () => {
                 <div className="right">
                     <input type="text" placeholder="Username" />
                     <input type="text" placeholder="Password" />
-                    <button type="submit">login</button>
+                    <button className='submit' type="submit">login</button>
                 </div>
             </div>
 
